@@ -1,0 +1,39 @@
+body {
+    background-color: #35517A;
+}
+
+.logo_header {
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 0.5rem;
+}
+
+.header_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.container_header {
+    margin-bottom: 30%;
+}
+
+.tittle_header {
+    color: #ffff;
+    font-family: sans-serif;
+    font-size: 5rem;
+}
+
+.text_header {
+    font-family: sans-serif;
+    color: #ffff;
+    margin-top: 8%;
+    font-size: 2rem;
+}
+
+.text_red {
+    color: #EC1B23;
+}
+
+
+
