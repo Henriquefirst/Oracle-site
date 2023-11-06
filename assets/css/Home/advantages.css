@@ -1,0 +1,27 @@
+.advantages_content {
+margin-top: 10%;
+margin-left: 5%;
+margin-bottom: 5%;
+}
+
+.card_advantages {
+display: grid;
+grid-template-columns: 1fr;
+}
+
+.icon_advantages {
+margin-top: 2rem;
+margin-bottom: 1rem;
+}
+
+.tittle_advantages {
+    color: #ffff;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.text_advantages {
+    color: #ffff;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-top: 1rem;
+}

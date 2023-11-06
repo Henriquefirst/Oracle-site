@@ -3,7 +3,7 @@ body {
 }
 
 .logo_header {
-    width: 20%;
+    width: 15%;
     margin-left: 2%;
     margin-top: 0.5rem;
 }
@@ -11,27 +11,42 @@ body {
 .header_section {
     display: flex;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 0%;
 }
 
+.img_background {
+    background-image:  url(/assets/img/grupo-de-pessoas-que-trabalham-em-equipe.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: absolute;
+    opacity: 50%;
+}
+
+
 .container_header {
-    margin-bottom: 30%;
+    margin-bottom: 20%;
 }
 
 .tittle_header {
     color: #ffff;
     font-family: sans-serif;
-    font-size: 5rem;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+margin-top: 2rem;
 }
 
 .text_header {
     font-family: sans-serif;
     color: #ffff;
-    margin-top: 8%;
+    margin-top: 10%;
     font-size: 2rem;
+    position: relative;
 }
 
-.text_red {
+
+.detal {
     color: #EC1B23;
 }
 
