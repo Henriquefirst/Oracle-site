@@ -3,23 +3,34 @@ margin-top: 10%;
 margin-left: 5%;
 margin-bottom: 5%;
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 2fr 2fr;
 }
 
 
 .icon_advantages {
 margin-top: 2rem;
 margin-bottom: 1rem;
+position: relative;
 }
 
 .tittle_advantages {
     color: #ffff;
     font-size: 2rem;
     font-family: sans-serif;
+    position: relative;
 }
 .text_advantages {
     color: #ffff;
     font-size: 1.5rem;
     font-family: sans-serif;
     margin-top: 1rem;
+    position: relative;
+}
+.img_background-advantages {
+    background-image:  url(/assets/img/close-up-hands-concept.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 50%;
+    display: flex;
+
 }
