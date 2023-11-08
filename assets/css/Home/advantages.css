@@ -2,12 +2,10 @@
 margin-top: 10%;
 margin-left: 5%;
 margin-bottom: 5%;
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
-.card_advantages {
-display: grid;
-grid-template-columns: 1fr;
-}
 
 .icon_advantages {
 margin-top: 2rem;
