@@ -1,6 +1,6 @@
 .advantages_content {
 margin-top: 10%;
-margin-left: 5%;
+margin-left: 15%;
 margin-bottom: 5%;
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -28,9 +28,7 @@ position: relative;
 }
 .img_background-advantages {
     background-image:  url(/assets/img/close-up-hands-concept.jpg);
-    background-repeat: no-repeat;
+    background-position: right;
     position: absolute;
     opacity: 50%;
-    display: flex;
-
 }
