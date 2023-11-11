@@ -2,4 +2,95 @@
 margin: 0 auto;
 width: 800px;
 height: 400px;
+overflow: hidden;
+position: absolute;
+}
+
+.slides {
+    width: 400%;
+    height: 400%;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 100px;
+    margin-top: -85%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 5px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+} 
+
+.manual-btn:hover {
+    background-color: #fff;
+    transition: 1s;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+.navigation-auto div {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 455px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #fff;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #fff;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
 }
