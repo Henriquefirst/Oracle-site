@@ -2,15 +2,14 @@ body {
     background-color: #35517A;
 }
 
-.header_section {
+.header {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .logo_header {
     width: 15%;
-    margin-left: 2%;
     margin-top: 0.5rem;
+    display: flex;
 }
 
 .header_section {
@@ -31,7 +30,7 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .text_header {
@@ -39,6 +38,8 @@ margin-top: 2rem;
     color: #ffff;
     margin-top: 10%;
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
     position: relative;
 }
 

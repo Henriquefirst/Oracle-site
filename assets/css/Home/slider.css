@@ -1,96 +1,105 @@
 .slider {
 margin: 0 auto;
-width: 800px;
-height: 400px;
+padding: 0 !important;
+width: 1349px;
+height: 1500px;
 overflow: hidden;
 position: absolute;
 }
 
 .slides {
-    width: 400%;
-    height: 400%;
+    width: 1100px;
+    height: 1800px;
     display: flex;
+    justify-content: center;
 }
-
 .slides input {
     display: none;
 }
 
-.slide {
-    width: 25%;
+
+.slide img {
+    width: 1630px;
+    height: 700px;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
     position: relative;
 }
 
-.slide img {
-    max-width: 100%;
-    max-height: 100%;
-    display: flex;
-    justify-content: center;
+.slide {
+    width: 400%;
+    height: 1200px;
+    position: relative;
 }
 
-.manual-navigation {
+
+.manual-nav .nav-auto {
+    width: 100%;
+    margin-top: -86%;
+    margin-left: 45%;
+    display: flex;
     position: absolute;
-    width: 100px;
-    margin-top: -85%;
-    margin-left: 10%;
-    display: flex;
-    justify-content: center;
 }
 
-.manual-btn {
+.manual-nav .manual-btn .nav-auto  {
     border: 5px solid #fff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
+    position: relative;
+    transition: 0.2s;
 }
 
-.manual-btn:not(:last-child) {
+.manual-nav .manual-btn:not(:last-child) .nav-auto div:not(:last-child) {
     margin-right: 40px;
 } 
 
-.manual-btn:hover {
+.manual-nav .manual-btn:hover {
     background-color: #fff;
     transition: 1s;
 }
 
 #radio1:checked ~ .first {
-    margin-left: 0;
+    margin-left: 315%;
 }
 
 #radio2:checked ~ .first {
-    margin-left: -25%;
+    margin-left: 0%;
 }
 
 #radio3:checked ~ .first {
-    margin-left: -50%;
+    margin-left: -300%;
 }
 
-.navigation-auto div {
+.nav-auto div {
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.2s;
+    margin-top: 21.9%;
+    margin-right: -21.2%;
 }
 
-.navigation-auto {
+.nav-auto {
     position: absolute;
     width: 800px;
-    margin-top: 455px;
+    margin-top: 465px;
     display: flex;
+    margin-left: 6.3%;
     justify-content: center;
 }
 
-.navigation-auto div:not(:last-child) {
+.nav-auto div:not(:last-child) {
     margin-right: 40px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1 {
+#radio1:checked ~ .nav-auto .auto-btn1 {
     background-color: #fff;
 }
-#radio2:checked ~ .navigation-auto .auto-btn2 {
+#radio2:checked ~ .nav-auto .auto-btn2 {
     background-color: #fff;
 }
-#radio3:checked ~ .navigation-auto .auto-btn3 {
+#radio3:checked ~ .nav-auto .auto-btn3 {
     background-color: #fff;
 }
