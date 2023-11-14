@@ -1,14 +1,14 @@
 .slider {
 margin: 0 auto;
 padding: 0 !important;
-width: 1349px;
-height: 1500px;
+width: 2049px;
+height: 1800px;
 overflow: hidden;
 position: absolute;
 }
 
 .slides {
-    width: 1100px;
+    width: 1400px;
     height: 1800px;
     display: flex;
     justify-content: center;
@@ -18,88 +18,53 @@ position: absolute;
 }
 
 
-.slide img {
-    width: 1630px;
-    height: 700px;
-    opacity: 50%;
+.slide-box {
+    width: 200%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.slide-box img {
+    width: 300%;
+}
+
+.manual-nav, .nav-auto {
+    position: absolute;
+    width: 100%;
+    margin-top: 40%;
     display: flex;
     justify-content: center;
-    position: relative;
 }
 
-.slide {
-    width: 400%;
-    height: 1200px;
-    position: relative;
-}
-
-
-.manual-nav .nav-auto {
-    width: 100%;
-    margin-top: -86%;
-    margin-left: 45%;
-    display: flex;
-    position: absolute;
-}
-
-.manual-nav .manual-btn .nav-auto  {
-    border: 5px solid #fff;
-    padding: 5px;
-    border-radius: 10px;
+.manual-nav .manual-btn, .nav-auto div {
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
     cursor: pointer;
-    position: relative;
     transition: 0.2s;
 }
 
-.manual-nav .manual-btn:not(:last-child) .nav-auto div:not(:last-child) {
-    margin-right: 40px;
-} 
+.manual-nav .manual-btn:not(:last-child), .nav-auto div:not(:last-child) {
+    margin-right: 10px;
+}
 
 .manual-nav .manual-btn:hover {
     background-color: #fff;
-    transition: 1s;
 }
 
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: #fff;
+} 
+ 
 #radio1:checked ~ .first {
-    margin-left: 315%;
-}
-
-#radio2:checked ~ .first {
     margin-left: 0%;
 }
 
-#radio3:checked ~ .first {
+#radio2:checked ~ .first {
     margin-left: -300%;
 }
 
-.nav-auto div {
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.2s;
-    margin-top: 21.9%;
-    margin-right: -21.2%;
-}
-
-.nav-auto {
-    position: absolute;
-    width: 800px;
-    margin-top: 465px;
-    display: flex;
-    margin-left: 6.3%;
-    justify-content: center;
-}
-
-.nav-auto div:not(:last-child) {
-    margin-right: 40px;
-}
-
-#radio1:checked ~ .nav-auto .auto-btn1 {
-    background-color: #fff;
-}
-#radio2:checked ~ .nav-auto .auto-btn2 {
-    background-color: #fff;
-}
-#radio3:checked ~ .nav-auto .auto-btn3 {
-    background-color: #fff;
+#radio3:checked ~ .first {
+    margin-left: -600%;
 }
