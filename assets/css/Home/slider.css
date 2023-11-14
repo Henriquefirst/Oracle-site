@@ -1,15 +1,15 @@
 .slider {
 margin: 0 auto;
 padding: 0 !important;
-width: 2049px;
-height: 1800px;
+width: 200%;
+height: 100%;
 overflow: hidden;
 position: absolute;
 }
 
 .slides {
-    width: 1400px;
-    height: 1800px;
+    width: 2400px;
+    height: 1500px;
     display: flex;
     justify-content: center;
 }
@@ -19,14 +19,16 @@ position: absolute;
 
 
 .slide-box {
-    width: 200%;
+    width: 100%;
     height: 100%;
     position: relative;
     text-align: center;
 }
 
 .slide-box img {
-    width: 300%;
+    width: 200%;
+    height: 40%;
+    opacity: 50%;
 }
 
 .manual-nav, .nav-auto {
@@ -58,11 +60,11 @@ position: absolute;
 } 
  
 #radio1:checked ~ .first {
-    margin-left: 0%;
+    margin-right: 40%;
 }
 
 #radio2:checked ~ .first {
-    margin-left: -300%;
+    margin-left: -200%;
 }
 
 #radio3:checked ~ .first {
