@@ -6,7 +6,9 @@ img,
 h1,
 h2,
 h3,
-p{
+b,
+p,
+mark{
     margin: 0;
     padding: 0;
     border: 0;

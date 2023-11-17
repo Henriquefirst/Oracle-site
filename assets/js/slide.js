@@ -1,21 +1,33 @@
+'use strict'
 
-var radio = document.querySelector('.manual-btn')
-var cont = 1
+const slideWrapper = document.querySelector('[data-slide="wrapper"]')
+const slideList = document.querySelector('[data-slide="list"]')
+const navPreviousButton = document.querySelector('[data-slide="nav-previous-button"]')
+const navNextButton = document.querySelector('[data-slide="nav-next-button"]')
+const controlsWrapper = document.querySelector('[data-slide="controls-wrapper"]')
+const slideItems = document.querySelector('[data-slide="item"]')
+const controlButton = document.querySelectorAll('[data-slides="control-button"]')
 
-document.getElementById('radio1').checked = true
 
-setInterval(() => {
-     proximaImg()
-}, 5000)
-
-function proximaImg(){
-    cont++
-
-     if(cont > 3){
-         cont = 1
-    }
-
-  
-    document.getElementById('radio'+cont).checked = true
-    
+function onMouseDown() {
+    console.log('apertei o botão do mouse', index) 
+    slideItem.addEventListener('mousemove', onMouseMove)
 }
+function onMouseMove(event) {
+    console.log('movimentei o mouse em cima do elemento',)
+}
+function onMouseUp(event) {
+    slideItem.removeEventListener('mousemove', onMouseMove)
+    console.log('soltei o botão do mouse', index)
+}
+
+
+
+slideItems.arr?.forEach.forEach(function(slideItem, index) {
+    slideItem.addEventListener('dragstart', function(event) {
+        event.preventDefault()
+    })
+    slideItems.addEventListener('mousedown', onMouseDown) 
+      slideItem.addEventListener('mouseup', onMouseUp)
+
+})

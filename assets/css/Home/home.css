@@ -1,5 +1,17 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #35517A;
+}
+.logo-body {
+    margin: 1rem;
+}
+
 .content_section {
 margin-bottom: 15%;
+margin-top: 50%;
 }
 .container_content {
     margin-bottom: 10%;
@@ -40,4 +52,10 @@ margin-bottom: 15%;
     border-radius: 8px;
     margin-left: 50%;
     font-size: 1.2rem;
+}
+
+.detal {
+    color: #EC1B23;
+    background-color: transparent;
+    margin-left: 0%;
 }
