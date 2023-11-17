@@ -7,18 +7,23 @@ const navNextButton = document.querySelector('[data-slide="nav-next-button"]')
 const controlsWrapper = document.querySelector('[data-slide="controls-wrapper"]')
 const slideItems = document.querySelector('[data-slide="item"]')
 const controlButton = document.querySelectorAll('[data-slides="control-button"]')
-let startingPoint
+let startingPoint = 0
+let savedPosition = 0
+let currentPoint  = 0
 
 function onMouseDown(event) {
     const slideItem = event.currentTarget
     startingPoint = event.clientX
+    currentPoint = startingPoint - savedPosition
     slideItem.addEventListener('mousemove', onMouseMove)
     console.log('ponto de partida', startingPoint)
     //console.log('apertei o botão do mouse', index) 
 }
 function onMouseMove(event) {
     const movement = event.clientX - startingPoint
-    console.log('pixel do mousemove',event.clientX,'-', 'ponto de partida', startingPoint, ' = ', movement)
+    const position = event.clientX - currentPoint
+    //console.log('pixel do mousemove',event.clientX,'-', 'ponto de partida', startingPoint, ' = ', movement)
+    console.log('pixel do mousemove',event.clientX,'-', 'ponto atual', currentPoint, ' = ', position)
     slideList.style.transform = 'translateX('+movement+'px)'
 }
 function onMouseUp(event) {
