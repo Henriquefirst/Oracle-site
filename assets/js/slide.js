@@ -37,7 +37,7 @@ function onMouseUp(event) {
 
 
 
-slideItems.arr?.forEach.forEach(function(slideItem, index) {
+slideItems.forEach(function(slideItem, index) {
     slideItem.addEventListener('dragstart', function(event) {
         event.preventDefault()
     })
