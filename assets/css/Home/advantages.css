@@ -29,6 +29,7 @@ position: relative;
 .img_background-advantages {
     background-image:  url(/assets/img/close-up-hands-concept.jpg);
     background-position: right;
+    width: 100%;
     position: absolute;
     opacity: 50%;
 }
