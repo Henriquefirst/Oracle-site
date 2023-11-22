@@ -8,12 +8,14 @@ body {
 }
 .container-header{
     width: 97.5%;
-    background-color: #2a3a53;
+    background-color: #35517A;
     margin-bottom: 5%;
+    margin: 2%;
 }
 
 .logo-home {
     margin: 0.5rem;
+    cursor: pointer;
 }
 
 .content_section {
@@ -44,25 +46,45 @@ margin-top: 60%
     color: #ffff;
     font-family: sans-serif;
     font-size: 3rem;
-    margin-left: 20%;
+    margin-left: 18%;
     margin-top: 15%;
     margin-bottom: 7%;
 }
 
 .button_content {
-    margin-top: 13%;
+    margin-top: 10%;
     background-color: #fff;
     text-decoration: none;
     color: #000;
     font-family: sans-serif;
     padding: 1rem 1rem 1rem;
     border-radius: 8px;
-    margin-left: 50%;
+    margin-left: 53%;
     font-size: 1.2rem;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    background-color: #35517A;
+    display: flex;
+    justify-content: center;
+}
+
+.text-footer {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: #fff;
+    margin-bottom: 10%;
+    margin: 2%;
 }
 
 .detal {
     color: #EC1B23;
     background-color: transparent;
-    margin-left: 0%;
+    margin-left: 2%;
+}
+.detal2 {
+    color: #EC1B23;
+    background-color: transparent;
 }
