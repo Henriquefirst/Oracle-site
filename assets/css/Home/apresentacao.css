@@ -1,0 +1,25 @@
+.slider {
+    height: 600px;
+    width: 1200px;
+    position: absolute;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+.detal-border {
+    border-top: 2px solid #EC1B23;
+    border-bottom: 2px solid #EC1B23;
+    width: 96.8%;
+    display: flex;
+    padding:  1rem;
+
+}
+
+.text-apresentacao {
+    color: #ffff;
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 18%;
+    margin-bottom: 2rem;
+}
