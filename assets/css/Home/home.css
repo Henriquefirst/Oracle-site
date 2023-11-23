@@ -7,14 +7,14 @@ body {
     background-color: #35517A;
 }
 .container-header{
-    width: 97.5%;
+    width: 95%;
     background-color: #35517A;
-    margin-bottom: 5%;
     margin: 2%;
 }
 
 .logo-home {
     margin: 0.5rem;
+    margin-top: 1%;
     cursor: pointer;
 }
 
