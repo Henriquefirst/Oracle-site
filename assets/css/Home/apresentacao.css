@@ -60,6 +60,7 @@
     height: 8%;
     position: relative;
     margin-top: -10%;
+    border: 1px solid #fff;
 }
 
 .card-input {
