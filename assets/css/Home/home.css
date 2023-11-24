@@ -9,12 +9,13 @@ body {
 .container-header{
     width: 95%;
     background-color: #35517A;
-    margin: 2%;
+    margin: 1%;
 }
 
 .logo-home {
     margin: 0.5rem;
     margin-top: 1%;
+    margin-bottom: -4%;
     cursor: pointer;
 }
 
@@ -69,6 +70,16 @@ margin-top: 60%
     background-color: #35517A;
     display: flex;
     justify-content: center;
+    margin-top: 10%;
+}
+
+.footer-home {
+    width: 100%;
+    position: relative;
+    background-color: #35517A;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
 }
 
 .text-footer {
