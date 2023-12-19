@@ -68,14 +68,14 @@
     font-size: 1.2rem;
     display: flex;
     padding: 1rem 0.5rem;
-    background-color: #fff;
+    background-color:  #35517A;
     border: none;
     outline: none;
     position: absolute;
 }
 
 input::placeholder {
-    color: #afafaf;
+    color:  #fff;
 }
 
 .button-subscribe {
@@ -85,6 +85,7 @@ input::placeholder {
     border-radius: 10px;
     margin-left: 80%;
     position: relative;
+    border: none;
 }
 
 input[type="text"] {
