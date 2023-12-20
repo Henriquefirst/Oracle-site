@@ -17,6 +17,13 @@ body {
     margin-bottom: -4%;
     cursor: pointer;
 }
+.logo-home-2 {
+    max-width: 15%;
+    margin: 0.5rem;
+    margin-top: 1%;
+    margin-bottom: -4%;
+    cursor: pointer;
+}
 
 .content_section {
 margin-bottom: 15%;
