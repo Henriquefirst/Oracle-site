@@ -11,6 +11,9 @@ body {
     height: 15%;
     background-color: #fff;
     margin-bottom: 2%;
+    margin-top: -5%;
+    position: fixed;
+    z-index: 1;
 }
 .email-header {
     display: flex;
@@ -38,15 +41,16 @@ body {
 .logo-home {
     margin-left: 10%;
     max-width: 13%;
-    margin-top: 1%;
+    margin-top: 0.5%;
     margin-bottom: -4%;
     cursor: pointer;
+    position: fixed;
 }
 .logo-home-2 {
     max-width: 12%;
     margin: 0.5rem;
     margin-top: 0.5%;
-    margin-left: 20%;
+    margin-left: 30%;
     margin-bottom: -4%;
     cursor: pointer;
 }
