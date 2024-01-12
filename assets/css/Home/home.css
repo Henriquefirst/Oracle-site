@@ -23,7 +23,7 @@ body {
 }
 .email-header:hover {
     color: #EC1B23;
-    border-bottom: 1px #EC1B23 solid;
+    cursor: pointer;
 }
 .phone-header {
     display: flex;
